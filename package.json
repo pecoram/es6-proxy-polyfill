@@ -1,6 +1,6 @@
 {
-  "name": "es6-proxy-polyfill",
-  "version": "2.1.1",
+  "name": "new-es6-proxy-polyfill",
+  "version": "2.2.0",
   "description": "Proxy polyfill based on ES3 supports IE8, Node.js, etc.",
   "main": "dist/es6-proxy-polyfill.js",
   "module": "dist/es6-proxy-polyfill.mjs",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/ambit-tsai/es6-proxy-polyfill#readme",
   "devDependencies": {
-    "rollup": "^2.32.1",
-    "rollup-plugin-terser": "^7.0.2"
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.9.0"
   }
 }

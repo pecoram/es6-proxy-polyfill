@@ -1,5 +1,5 @@
 const rollup = require('rollup');
-const { terser } = require('rollup-plugin-terser');
+const terser = require('@rollup/plugin-terser');
 const banner = require('./banner');
 
 
@@ -14,7 +14,7 @@ const banner = require('./banner');
     // Create the UMD version
     await bundle.write({
         file: 'dist/es6-proxy-polyfill.js',
-        format: 'umd',
+        format: 'iife',
         banner,
         name: 'Proxy',
     });
